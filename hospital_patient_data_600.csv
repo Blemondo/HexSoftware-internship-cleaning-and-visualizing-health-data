@@ -1,0 +1,601 @@
+Patient_ID,Age,Gender,Disease_Type,Department,Admission_Time,Discharge_Time,Length_of_Stay_Days,Weight_kg,Outcome
+1,38,Male,Respiratory,Cardiology,2025-08-14 18:00:00,2025-08-21 18:00:00,7,61.5,Recovered
+2,12,Female,Infection,General Medicine,2025-02-15 07:00:00,2025-02-26 14:00:00,11,38.4,Recovered
+3,83,Male,Hypertension,General Medicine,2025-04-20 15:00:00,2025-04-30 18:00:00,10,65.7,Recovered
+4,63,Male,Respiratory,Orthopedics,2025-10-10 22:00:00,2025-10-24 06:00:00,13,78.7,Recovered
+5,83,Female,Diabetes,Orthopedics,2025-07-21 16:00:00,2025-08-03 19:00:00,13,65.4,Recovered
+6,43,Female,Hypertension,Emergency,2025-09-01 10:00:00,2025-09-14 18:00:00,13,94.7,Recovered
+7,13,Male,Other,Emergency,2025-09-07 11:00:00,2025-09-10 15:00:00,3,39.7,Deceased
+8,18,Male,Infection,Surgery,2025-04-14 05:00:00,2025-04-15 10:00:00,1,68.3,Recovered
+9,59,Male,Infection,General Medicine,2025-11-11 18:00:00,2025-11-20 02:00:00,8,73.7,Recovered
+10,56,Female,Diabetes,Emergency,2025-04-11 21:00:00,2025-04-23 22:00:00,12,73.3,Recovered
+11,14,Male,Cardiac,Cardiology,2025-01-14 22:00:00,2025-01-25 01:00:00,10,34.8,Recovered
+12,60,Male,Fracture,Orthopedics,2025-11-04 04:00:00,2025-11-09 13:00:00,5,93.0,Recovered
+13,51,Male,Infection,Pediatrics,2025-10-16 22:00:00,2025-10-29 06:00:00,12,73.5,Recovered
+14,84,Male,Other,Pediatrics,2025-01-27 15:00:00,2025-02-03 01:00:00,6,91.7,Recovered
+15,21,Male,Diabetes,General Medicine,2025-02-18 23:00:00,2025-03-04 04:00:00,13,57.7,Recovered
+16,2,Male,Infection,Surgery,2025-12-03 15:00:00,2025-12-17 19:00:00,14,28.0,Recovered
+17,56,Female,Diabetes,Orthopedics,2025-09-20 02:00:00,2025-09-22 13:00:00,2,90.4,Recovered
+18,7,Female,Respiratory,Cardiology,2025-04-28 13:00:00,2025-05-03 19:00:00,5,52.8,Recovered
+19,12,Female,Diabetes,Pediatrics,2025-08-25 22:00:00,2025-09-06 05:00:00,11,31.0,Recovered
+20,54,Female,Fracture,Orthopedics,2025-11-14 07:00:00,2025-11-21 09:00:00,7,66.1,Recovered
+21,13,Male,Diabetes,Pediatrics,2025-04-10 16:00:00,2025-04-21 03:00:00,10,55.0,Recovered
+22,5,Male,Diabetes,General Medicine,2025-07-19 04:00:00,2025-07-21 04:00:00,2,40.1,Recovered
+23,30,Male,Other,Cardiology,2025-12-02 04:00:00,2025-12-06 13:00:00,4,42.1,Recovered
+24,27,Female,Hypertension,Cardiology,2025-09-06 02:00:00,2025-09-16 07:00:00,10,85.4,Transferred
+25,10,Male,Cardiac,Cardiology,2025-06-14 03:00:00,2025-06-21 12:00:00,7,59.9,Recovered
+26,78,Male,Respiratory,Pediatrics,2025-08-23 19:00:00,2025-09-07 23:00:00,15,63.7,Recovered
+27,75,Male,Hypertension,General Medicine,2025-11-09 06:00:00,2025-11-12 14:00:00,3,25.0,Recovered
+28,13,Female,Fracture,Orthopedics,2025-01-29 17:00:00,2025-02-13 04:00:00,14,33.6,Recovered
+29,4,Female,Respiratory,Orthopedics,2025-01-09 06:00:00,2025-01-13 11:00:00,4,49.6,Recovered
+30,1,Male,Diabetes,Surgery,2025-09-23 19:00:00,2025-10-06 00:00:00,12,46.2,Recovered
+31,34,Male,Cardiac,Cardiology,2025-06-24 21:00:00,2025-07-07 08:00:00,12,89.0,Recovered
+32,75,Male,Hypertension,Orthopedics,2025-04-19 19:00:00,2025-04-24 00:00:00,4,63.9,Recovered
+33,40,Female,Diabetes,General Medicine,2025-08-12 10:00:00,2025-08-25 15:00:00,13,84.5,Recovered
+34,49,Male,Cardiac,Cardiology,2025-08-04 08:00:00,2025-08-08 13:00:00,4,66.4,Recovered
+35,83,Female,Hypertension,Cardiology,2025-05-03 17:00:00,2025-05-16 20:00:00,13,95.9,Recovered
+36,14,Male,Other,Emergency,2025-05-06 15:00:00,2025-05-11 01:00:00,4,73.2,Recovered
+37,78,Male,Hypertension,Emergency,2025-04-17 15:00:00,2025-04-26 15:00:00,9,73.4,Recovered
+38,20,Female,Hypertension,Emergency,2025-07-11 10:00:00,2025-07-20 17:00:00,9,46.1,Recovered
+39,79,Male,Cardiac,Cardiology,2025-01-11 08:00:00,2025-01-17 19:00:00,6,61.4,Recovered
+40,54,Female,Hypertension,Orthopedics,2025-12-07 07:00:00,2025-12-15 17:00:00,8,56.3,Recovered
+41,43,Male,Diabetes,Surgery,2025-07-16 15:00:00,2025-07-18 21:00:00,2,81.9,Recovered
+42,4,Female,Respiratory,Pediatrics,2025-01-02 00:00:00,2025-01-09 11:00:00,7,26.3,Recovered
+43,1,Male,Diabetes,Emergency,2025-10-09 15:00:00,2025-10-17 18:00:00,8,70.3,Transferred
+44,19,Female,Other,Orthopedics,2025-11-13 03:00:00,2025-11-18 11:00:00,5,66.6,Recovered
+45,64,Male,Hypertension,Surgery,2025-10-03 06:00:00,2025-10-20 12:00:00,17,79.2,Recovered
+46,27,Male,Fracture,Orthopedics,2025-06-24 13:00:00,2025-07-05 19:00:00,11,59.3,Recovered
+47,38,Male,Fracture,Orthopedics,2025-06-18 23:00:00,2025-06-29 23:00:00,11,59.7,Recovered
+48,35,Male,Cardiac,Cardiology,2025-07-31 04:00:00,2025-08-12 10:00:00,12,73.1,Recovered
+49,3,Male,Diabetes,Cardiology,2025-07-02 23:00:00,2025-07-11 09:00:00,8,15.0,Recovered
+50,47,Male,Infection,Pediatrics,2025-12-24 09:00:00,2025-12-29 13:00:00,5,56.7,Recovered
+51,72,Female,Other,General Medicine,2025-08-05 02:00:00,2025-08-10 10:00:00,5,90.9,Recovered
+52,58,Female,Hypertension,Surgery,2025-01-04 19:00:00,2025-01-07 04:00:00,2,67.3,Recovered
+53,14,Female,Respiratory,General Medicine,2025-04-10 09:00:00,2025-04-11 12:00:00,1,39.5,Recovered
+54,37,Male,Infection,Emergency,2025-03-15 08:00:00,2025-03-26 08:00:00,11,67.9,Recovered
+55,69,Male,Respiratory,Orthopedics,2025-09-08 15:00:00,2025-09-17 21:00:00,9,66.5,Transferred
+56,24,Male,Infection,General Medicine,2025-11-10 15:00:00,2025-11-23 16:00:00,13,,Recovered
+57,18,Male,Infection,Surgery,2025-06-08 12:00:00,2025-06-12 18:00:00,4,59.5,Recovered
+58,60,Male,Diabetes,Pediatrics,2025-07-29 16:00:00,2025-08-03 20:00:00,5,108.0,Recovered
+59,79,Female,Infection,Surgery,2025-05-05 16:00:00,2025-05-19 02:00:00,13,47.0,Recovered
+60,72,Male,Other,General Medicine,2025-03-24 23:00:00,2025-03-30 04:00:00,5,64.7,Recovered
+61,18,Male,Diabetes,Orthopedics,2025-07-04 14:00:00,2025-07-17 22:00:00,13,85.2,Recovered
+62,68,Female,Fracture,Orthopedics,2025-03-07 03:00:00,2025-03-20 09:00:00,13,68.2,Recovered
+63,22,Female,Diabetes,Cardiology,2025-02-14 05:00:00,2025-02-21 05:00:00,7,84.0,Recovered
+64,33,Male,Infection,Cardiology,2025-02-13 16:00:00,2025-02-23 03:00:00,9,62.0,Recovered
+65,56,Male,Diabetes,Pediatrics,2025-11-18 15:00:00,2025-11-25 17:00:00,7,49.4,Recovered
+66,30,Male,Diabetes,Cardiology,2025-07-13 18:00:00,2025-07-27 01:00:00,13,62.6,Recovered
+67,42,Female,Hypertension,Cardiology,2025-05-13 21:00:00,2025-05-25 08:00:00,11,76.1,Recovered
+68,54,Male,Cardiac,Cardiology,2025-01-20 15:00:00,2025-02-05 21:00:00,16,78.6,Recovered
+69,41,Female,Infection,Pediatrics,2025-09-10 13:00:00,2025-09-14 16:00:00,4,40.7,Deceased
+70,64,Female,Diabetes,General Medicine,2025-06-07 20:00:00,2025-06-15 20:00:00,8,84.8,Recovered
+71,31,Female,Cardiac,Cardiology,2025-02-28 13:00:00,2025-03-04 15:00:00,4,67.4,Recovered
+72,2,Male,Hypertension,Pediatrics,2025-08-15 13:00:00,2025-08-24 22:00:00,9,32.2,Recovered
+73,7,Female,Respiratory,Pediatrics,2025-01-22 11:00:00,2025-01-30 13:00:00,8,26.0,Transferred
+74,10,Female,Diabetes,Pediatrics,2025-04-24 19:00:00,2025-04-27 21:00:00,3,22.8,Recovered
+75,27,Female,Other,General Medicine,2025-04-02 02:00:00,2025-04-09 02:00:00,7,51.4,Recovered
+76,42,Male,Cardiac,Cardiology,2025-04-27 05:00:00,2025-05-10 16:00:00,13,76.1,Recovered
+77,41,Male,Infection,General Medicine,2025-04-06 18:00:00,2025-04-15 19:00:00,9,64.1,Recovered
+78,56,Female,Infection,Orthopedics,2025-09-14 19:00:00,2025-09-20 21:00:00,6,75.8,Recovered
+79,20,Female,Diabetes,Cardiology,2025-01-24 06:00:00,2025-02-05 12:00:00,12,76.6,Recovered
+80,82,Male,Other,Surgery,2025-11-03 12:00:00,2025-11-17 19:00:00,14,70.6,Recovered
+81,68,Male,Diabetes,Cardiology,2025-08-05 12:00:00,2025-08-06 12:00:00,1,57.1,Recovered
+82,67,Female,Infection,General Medicine,2025-03-14 08:00:00,2025-03-30 10:00:00,16,67.3,Recovered
+83,11,Male,Hypertension,General Medicine,2025-04-26 13:00:00,2025-05-02 18:00:00,6,15.2,Recovered
+84,21,Female,Hypertension,Cardiology,2025-08-22 23:00:00,2025-09-04 01:00:00,12,77.6,Recovered
+85,66,Male,Fracture,Orthopedics,2025-07-20 06:00:00,2025-07-23 14:00:00,3,44.6,Recovered
+86,47,Female,Hypertension,General Medicine,2025-11-27 07:00:00,2025-12-04 08:00:00,7,57.4,Recovered
+87,84,Female,Respiratory,Surgery,2025-04-11 05:00:00,2025-04-20 08:00:00,9,83.8,Recovered
+88,81,Female,Other,Pediatrics,2025-03-23 09:00:00,2025-03-31 10:00:00,8,38.2,Recovered
+89,72,Male,Cardiac,Cardiology,2025-06-08 10:00:00,2025-06-16 21:00:00,8,58.9,Recovered
+90,84,Male,Other,Cardiology,2025-04-17 19:00:00,2025-04-24 04:00:00,6,48.2,Recovered
+91,10,Female,Cardiac,Cardiology,2025-01-06 16:00:00,2025-01-20 23:00:00,14,50.8,Recovered
+92,71,Female,Hypertension,General Medicine,2025-11-17 14:00:00,2025-12-01 16:00:00,14,73.9,Recovered
+93,39,Female,Fracture,Orthopedics,2025-07-06 08:00:00,2025-07-09 13:00:00,3,67.1,Transferred
+94,53,Male,Other,Emergency,2025-03-07 14:00:00,2025-03-19 23:00:00,12,78.9,Recovered
+95,60,Female,Diabetes,Emergency,2025-06-07 06:00:00,2025-06-15 15:00:00,8,71.3,Recovered
+96,47,Male,Other,General Medicine,2025-07-05 23:00:00,2025-07-09 02:00:00,3,78.9,Recovered
+97,29,Male,Fracture,Orthopedics,2025-12-22 12:00:00,2025-12-30 12:00:00,8,62.1,Recovered
+98,29,Female,Infection,Emergency,2025-07-25 13:00:00,2025-07-30 21:00:00,5,62.4,Recovered
+99,80,Male,Cardiac,Cardiology,2025-11-24 14:00:00,2025-12-10 14:00:00,16,41.6,Recovered
+100,56,Female,Hypertension,General Medicine,2025-05-10 00:00:00,2025-05-16 03:00:00,6,47.4,Recovered
+101,7,Male,Other,Surgery,2025-12-09 12:00:00,2025-12-11 22:00:00,2,40.3,Recovered
+102,36,Female,Infection,Surgery,2025-04-02 02:00:00,2025-04-15 05:00:00,13,53.3,Recovered
+103,61,Female,Hypertension,Cardiology,2025-03-05 21:00:00,2025-03-06 23:00:00,1,68.4,Recovered
+104,83,Female,Infection,Pediatrics,2025-05-21 14:00:00,2025-05-22 22:00:00,1,79.2,Recovered
+105,29,Male,Cardiac,Cardiology,2025-06-14 21:00:00,2025-06-21 05:00:00,6,58.5,Recovered
+106,52,Male,Other,Cardiology,2025-02-09 23:00:00,2025-02-20 04:00:00,10,85.3,Recovered
+107,18,Female,Diabetes,Cardiology,2025-03-04 20:00:00,2025-03-07 23:00:00,3,59.1,Recovered
+108,40,Female,Other,Emergency,2025-02-26 01:00:00,2025-03-09 01:00:00,11,57.7,Recovered
+109,12,Female,Other,General Medicine,2025-05-28 13:00:00,2025-06-04 15:00:00,7,42.1,Recovered
+110,32,Male,Hypertension,Emergency,2025-05-06 13:00:00,2025-05-19 14:00:00,13,55.7,Recovered
+111,68,Male,Hypertension,Emergency,2025-01-02 08:00:00,2025-01-05 10:00:00,3,62.7,Transferred
+112,18,Male,Respiratory,Cardiology,2025-09-18 14:00:00,2025-09-27 22:00:00,9,91.1,Recovered
+113,16,Female,Hypertension,Pediatrics,2025-12-22 07:00:00,2025-12-24 10:00:00,2,37.4,Recovered
+114,74,Female,Cardiac,Cardiology,2025-06-02 04:00:00,2025-06-12 13:00:00,10,87.2,Recovered
+115,34,Male,Fracture,Orthopedics,2025-06-12 18:00:00,2025-06-22 04:00:00,9,48.9,Recovered
+116,71,Male,Diabetes,Orthopedics,2025-08-26 07:00:00,2025-09-05 08:00:00,10,65.5,Recovered
+117,22,Male,Diabetes,Orthopedics,2025-11-14 03:00:00,2025-11-27 04:00:00,13,57.4,Recovered
+118,42,Female,Fracture,Orthopedics,2025-10-29 09:00:00,2025-11-04 20:00:00,6,87.0,Recovered
+119,65,Female,Infection,General Medicine,2025-10-05 22:00:00,2025-10-12 09:00:00,6,67.3,Recovered
+120,84,Female,Fracture,Orthopedics,2025-02-10 14:00:00,2025-02-21 17:00:00,11,41.5,Recovered
+121,54,Male,Fracture,Orthopedics,2025-05-24 16:00:00,2025-06-08 01:00:00,14,62.0,Deceased
+122,55,Male,Diabetes,Orthopedics,2025-02-03 17:00:00,2025-02-11 17:00:00,8,58.7,Recovered
+123,53,Male,Infection,Emergency,2025-01-14 23:00:00,2025-01-24 02:00:00,9,52.9,Recovered
+124,33,Male,Diabetes,Orthopedics,2025-05-07 06:00:00,2025-05-16 14:00:00,9,69.5,Recovered
+125,30,Male,Respiratory,Orthopedics,2025-10-06 07:00:00,2025-10-13 08:00:00,7,69.0,Recovered
+126,30,Male,Hypertension,Pediatrics,2025-02-23 22:00:00,2025-03-05 01:00:00,9,51.4,Recovered
+127,79,Female,Infection,Cardiology,2025-04-14 05:00:00,2025-04-21 09:00:00,7,73.3,Recovered
+128,31,Female,Fracture,Orthopedics,2025-09-01 05:00:00,2025-09-05 15:00:00,4,57.0,Recovered
+129,29,Female,Diabetes,Pediatrics,2025-05-18 01:00:00,2025-05-28 09:00:00,10,87.0,Recovered
+130,65,Male,Other,Surgery,2025-10-02 12:00:00,2025-10-14 19:00:00,12,63.6,Transferred
+131,54,Female,Respiratory,Pediatrics,2025-05-13 06:00:00,2025-05-25 10:00:00,12,55.6,Recovered
+132,55,Female,Other,Orthopedics,2025-06-05 22:00:00,2025-06-10 03:00:00,4,79.0,Recovered
+133,2,Male,Hypertension,Surgery,2025-12-30 19:00:00,2026-01-01 02:00:00,1,39.5,Recovered
+134,51,Male,Infection,General Medicine,2025-03-01 05:00:00,2025-03-10 14:00:00,9,79.0,Recovered
+135,77,Female,Diabetes,General Medicine,2025-03-28 01:00:00,2025-04-10 02:00:00,13,80.6,Recovered
+136,25,Female,Cardiac,Cardiology,2025-06-09 09:00:00,2025-06-23 09:00:00,14,78.4,Recovered
+137,40,Male,Diabetes,General Medicine,2025-05-17 16:00:00,2025-05-19 16:00:00,2,58.7,Recovered
+138,54,Male,Hypertension,Emergency,2025-07-21 09:00:00,2025-08-01 15:00:00,11,73.4,Recovered
+139,31,Female,Diabetes,Cardiology,2025-02-10 18:00:00,2025-02-20 21:00:00,10,57.3,Recovered
+140,26,Male,Hypertension,Emergency,2025-12-17 10:00:00,2025-12-20 10:00:00,3,69.4,Recovered
+141,31,Female,Hypertension,Cardiology,2025-12-03 22:00:00,2025-12-06 05:00:00,2,57.3,Recovered
+142,55,Female,Infection,Emergency,2025-05-11 00:00:00,2025-05-18 09:00:00,7,63.6,Recovered
+143,56,Male,Fracture,Orthopedics,2025-02-03 11:00:00,2025-02-06 11:00:00,3,65.5,Recovered
+144,81,Male,Fracture,Orthopedics,2025-10-24 00:00:00,2025-11-05 11:00:00,12,71.5,Recovered
+145,35,Male,Cardiac,Cardiology,2025-08-31 10:00:00,2025-09-01 10:00:00,1,96.3,Recovered
+146,49,Female,Cardiac,Cardiology,2025-12-07 04:00:00,2025-12-10 11:00:00,3,72.3,Recovered
+147,55,Female,Hypertension,Emergency,2025-02-08 18:00:00,2025-02-19 21:00:00,11,83.8,Recovered
+148,5,Male,Cardiac,Cardiology,2025-02-21 16:00:00,2025-02-24 23:00:00,3,25.6,Transferred
+149,67,Male,Infection,Emergency,2025-02-16 22:00:00,2025-02-20 03:00:00,3,81.9,Deceased
+150,65,Male,Hypertension,Surgery,2025-05-08 22:00:00,2025-05-15 08:00:00,6,62.0,Transferred
+151,70,Male,Respiratory,Pediatrics,2025-09-30 12:00:00,2025-10-08 19:00:00,8,95.9,Recovered
+152,40,Female,Diabetes,Orthopedics,2025-12-18 07:00:00,2025-12-23 09:00:00,5,67.1,Recovered
+153,2,Female,Hypertension,Pediatrics,2025-06-20 15:00:00,2025-06-26 01:00:00,5,54.4,Recovered
+154,41,Male,Fracture,Orthopedics,2025-02-28 14:00:00,2025-03-07 15:00:00,7,58.6,Recovered
+155,63,Male,Hypertension,General Medicine,2025-12-25 14:00:00,2025-12-29 16:00:00,4,64.3,Recovered
+156,54,Male,Diabetes,General Medicine,2025-06-06 10:00:00,2025-06-16 10:00:00,10,76.7,Recovered
+157,24,Male,Other,General Medicine,2025-11-19 19:00:00,2025-11-30 23:00:00,11,84.6,Recovered
+158,72,Male,Fracture,Orthopedics,2025-05-18 18:00:00,2025-05-26 20:00:00,8,45.8,Recovered
+159,52,Male,Cardiac,Cardiology,2025-12-18 00:00:00,2025-12-28 07:00:00,10,60.5,Recovered
+160,5,Female,Infection,Cardiology,2025-09-02 03:00:00,2025-09-09 13:00:00,7,18.0,Recovered
+161,25,Female,Infection,General Medicine,2025-04-14 21:00:00,2025-04-28 00:00:00,13,59.2,Recovered
+162,25,Male,Other,General Medicine,2025-05-13 15:00:00,2025-05-15 18:00:00,2,52.8,Recovered
+163,15,Female,Hypertension,Pediatrics,2025-09-26 04:00:00,2025-10-04 14:00:00,8,39.5,Recovered
+164,59,Female,Fracture,Orthopedics,2025-11-06 07:00:00,2025-11-07 08:00:00,1,84.3,Recovered
+165,20,Female,Infection,Surgery,2025-09-12 13:00:00,2025-09-18 20:00:00,6,55.8,Recovered
+166,28,Male,Cardiac,Cardiology,2025-12-13 01:00:00,2025-12-19 06:00:00,6,85.8,Recovered
+167,52,Female,Cardiac,Cardiology,2025-07-29 00:00:00,2025-08-12 02:00:00,14,54.3,Recovered
+168,54,Male,Respiratory,Pediatrics,2025-12-25 12:00:00,2025-12-31 12:00:00,6,63.8,Transferred
+169,46,Female,Cardiac,Cardiology,2025-01-25 01:00:00,2025-02-02 07:00:00,8,76.9,Recovered
+170,37,Male,Diabetes,Cardiology,2025-12-04 15:00:00,2025-12-11 22:00:00,7,87.8,Recovered
+171,8,Female,Infection,Orthopedics,2025-01-26 15:00:00,2025-02-02 18:00:00,7,31.4,Recovered
+172,27,Female,Infection,Emergency,2025-05-05 17:00:00,2025-05-15 02:00:00,9,59.6,Recovered
+173,21,Male,Diabetes,Orthopedics,2025-06-03 03:00:00,2025-06-04 13:00:00,1,57.6,Recovered
+174,10,Male,Hypertension,Cardiology,2025-03-08 13:00:00,2025-03-11 17:00:00,3,41.0,Recovered
+175,5,Male,Infection,Cardiology,2025-03-25 18:00:00,2025-04-04 03:00:00,9,29.3,Recovered
+176,7,Female,Respiratory,Orthopedics,2025-09-25 14:00:00,2025-09-28 18:00:00,3,44.5,Recovered
+177,61,Female,Fracture,Orthopedics,2025-02-27 03:00:00,2025-03-12 11:00:00,13,71.0,Recovered
+178,36,Male,Diabetes,Emergency,2025-12-29 16:00:00,2026-01-12 19:00:00,14,70.3,Recovered
+179,59,Female,Infection,Pediatrics,2025-11-14 16:00:00,2025-11-20 23:00:00,6,69.9,Transferred
+180,47,Female,Cardiac,Cardiology,2025-03-02 06:00:00,2025-03-14 10:00:00,12,92.0,Recovered
+181,74,Male,Cardiac,Cardiology,2025-11-08 10:00:00,2025-11-22 10:00:00,14,59.1,Recovered
+182,9,Female,Cardiac,Cardiology,2025-02-01 02:00:00,2025-02-06 08:00:00,5,57.7,Recovered
+183,73,Female,Fracture,Orthopedics,2025-11-25 14:00:00,2025-11-27 23:00:00,2,86.8,Recovered
+184,82,Female,Cardiac,Cardiology,2025-02-02 09:00:00,2025-02-18 19:00:00,16,76.7,Recovered
+185,47,Female,Cardiac,Cardiology,2025-04-27 23:00:00,2025-05-14 06:00:00,16,73.4,Recovered
+186,9,Male,Hypertension,Orthopedics,2025-12-22 02:00:00,2026-01-02 11:00:00,11,27.1,Recovered
+187,58,Female,Fracture,Orthopedics,2025-10-10 21:00:00,2025-10-22 04:00:00,11,81.1,Transferred
+188,27,Male,Diabetes,Pediatrics,2025-11-20 03:00:00,2025-11-30 12:00:00,10,63.3,Transferred
+189,77,Female,Infection,Pediatrics,2025-01-24 21:00:00,2025-01-28 23:00:00,4,65.0,Recovered
+190,62,Male,Infection,Orthopedics,2025-07-04 01:00:00,2025-07-05 12:00:00,1,88.3,Transferred
+191,82,Male,Respiratory,Emergency,2025-04-17 18:00:00,2025-04-25 20:00:00,8,103.5,Recovered
+192,8,Female,Diabetes,Surgery,2025-01-07 01:00:00,2025-01-17 01:00:00,10,40.6,Recovered
+193,30,Female,Respiratory,Cardiology,2025-05-31 22:00:00,2025-06-07 08:00:00,6,89.3,Recovered
+194,53,Female,Fracture,Orthopedics,2025-10-20 20:00:00,2025-10-25 07:00:00,4,84.1,Recovered
+195,45,Female,Cardiac,Cardiology,2025-09-16 08:00:00,2025-09-29 09:00:00,13,92.5,Deceased
+196,16,Male,Fracture,Orthopedics,2025-07-09 05:00:00,2025-07-11 13:00:00,2,35.6,Recovered
+197,67,Female,Respiratory,Cardiology,2025-10-27 02:00:00,2025-11-07 03:00:00,11,40.7,Recovered
+198,9,Female,Cardiac,Cardiology,2025-08-10 21:00:00,2025-08-20 03:00:00,9,39.0,Recovered
+199,34,Female,Cardiac,Cardiology,2025-10-05 14:00:00,2025-10-14 22:00:00,9,75.3,Recovered
+200,32,Male,Infection,Cardiology,2025-07-07 18:00:00,2025-07-10 01:00:00,2,45.0,Recovered
+201,58,Female,Diabetes,Cardiology,2025-06-02 04:00:00,2025-06-07 08:00:00,5,62.7,Recovered
+202,26,Female,Infection,Emergency,2025-03-05 10:00:00,2025-03-11 15:00:00,6,55.5,Recovered
+203,14,Male,Fracture,Orthopedics,2025-07-11 09:00:00,2025-07-21 19:00:00,10,65.8,Recovered
+204,26,Female,Hypertension,Pediatrics,2025-11-28 20:00:00,2025-12-12 02:00:00,13,84.0,Recovered
+205,24,Male,Respiratory,Pediatrics,2025-04-09 15:00:00,2025-04-17 16:00:00,8,70.3,Transferred
+206,40,Female,Hypertension,General Medicine,2025-12-17 18:00:00,2025-12-28 05:00:00,10,46.9,Recovered
+207,82,Male,Hypertension,Pediatrics,2025-10-27 20:00:00,2025-11-08 02:00:00,11,79.2,Recovered
+208,40,Female,Hypertension,General Medicine,2025-08-24 16:00:00,2025-09-05 03:00:00,11,84.1,Recovered
+209,58,Male,Hypertension,Cardiology,2025-03-20 04:00:00,2025-03-29 11:00:00,9,63.3,Recovered
+210,41,Male,Hypertension,Emergency,2025-06-24 13:00:00,2025-07-03 18:00:00,9,83.9,Recovered
+211,15,Male,Diabetes,General Medicine,2025-06-30 18:00:00,2025-07-11 05:00:00,10,15.0,Recovered
+212,34,Male,Hypertension,Cardiology,2025-11-04 23:00:00,2025-11-07 00:00:00,2,55.8,Recovered
+213,83,Female,Hypertension,Orthopedics,2025-09-13 18:00:00,2025-09-18 19:00:00,5,75.9,Recovered
+214,72,Male,Hypertension,Cardiology,2025-09-14 03:00:00,2025-09-28 12:00:00,14,66.5,Recovered
+215,40,Male,Diabetes,Pediatrics,2025-10-07 03:00:00,2025-10-18 14:00:00,11,103.5,Recovered
+216,47,Male,Diabetes,Pediatrics,2025-08-06 15:00:00,2025-08-19 01:00:00,12,46.5,Recovered
+217,67,Female,Hypertension,Surgery,2025-02-20 17:00:00,2025-03-05 20:00:00,13,57.8,Recovered
+218,48,Female,Fracture,Orthopedics,2025-10-26 05:00:00,2025-10-27 06:00:00,1,54.1,Recovered
+219,85,Female,Diabetes,General Medicine,2025-03-25 13:00:00,2025-03-26 19:00:00,1,61.4,Recovered
+220,34,Male,Cardiac,Cardiology,2025-09-10 19:00:00,2025-09-15 04:00:00,4,54.5,Recovered
+221,15,Male,Infection,Pediatrics,2025-05-15 18:00:00,2025-05-26 04:00:00,10,47.4,Recovered
+222,30,Female,Respiratory,Emergency,2025-03-18 15:00:00,2025-03-30 21:00:00,12,72.8,Recovered
+223,27,Male,Hypertension,Emergency,2025-02-26 23:00:00,2025-03-06 00:00:00,7,81.5,Recovered
+224,27,Male,Diabetes,Cardiology,2025-05-08 14:00:00,2025-05-17 23:00:00,9,70.8,Recovered
+225,63,Female,Other,General Medicine,2025-12-20 16:00:00,2025-12-27 01:00:00,6,48.0,Recovered
+226,2,Female,Cardiac,Cardiology,2025-02-19 12:00:00,2025-02-25 19:00:00,6,48.5,Recovered
+227,29,Female,Respiratory,Emergency,2025-07-15 22:00:00,2025-07-30 03:00:00,14,77.1,Recovered
+228,59,Female,Other,Orthopedics,2025-07-28 02:00:00,2025-08-03 11:00:00,6,86.4,Recovered
+229,50,Male,Respiratory,Cardiology,2025-01-27 02:00:00,2025-02-05 08:00:00,9,74.8,Recovered
+230,13,Male,Infection,Orthopedics,2025-11-08 09:00:00,2025-11-19 10:00:00,11,37.5,Recovered
+231,73,Female,Infection,Emergency,2025-07-17 02:00:00,2025-07-28 13:00:00,11,58.9,Recovered
+232,14,Female,Other,Orthopedics,2025-07-08 21:00:00,2025-07-19 22:00:00,11,34.2,Recovered
+233,9,Female,Hypertension,Cardiology,2025-02-12 13:00:00,2025-02-25 15:00:00,13,46.6,Recovered
+234,15,Male,Hypertension,Emergency,2025-11-30 23:00:00,2025-12-07 09:00:00,6,32.0,Recovered
+235,63,Male,Respiratory,Surgery,2025-06-15 19:00:00,2025-06-20 04:00:00,4,65.7,Recovered
+236,49,Male,Diabetes,Surgery,2025-07-03 17:00:00,2025-07-10 18:00:00,7,87.1,Recovered
+237,47,Male,Hypertension,Emergency,2025-12-08 03:00:00,2025-12-18 09:00:00,10,72.4,Transferred
+238,63,Female,Respiratory,General Medicine,2025-02-26 22:00:00,2025-03-08 01:00:00,9,105.9,Recovered
+239,68,Male,Diabetes,Pediatrics,2025-02-19 08:00:00,2025-03-04 08:00:00,13,70.4,Recovered
+240,9,Female,Cardiac,Cardiology,2025-09-15 15:00:00,2025-09-27 01:00:00,11,19.3,Recovered
+241,6,Male,Cardiac,Cardiology,2025-01-13 15:00:00,2025-01-17 16:00:00,4,44.3,Recovered
+242,10,Male,Respiratory,Emergency,2025-09-24 16:00:00,2025-09-25 16:00:00,1,79.9,Recovered
+243,10,Male,Respiratory,Orthopedics,2025-06-06 01:00:00,2025-06-07 07:00:00,1,32.1,Recovered
+244,46,Female,Diabetes,Pediatrics,2025-11-05 06:00:00,2025-11-17 14:00:00,12,48.4,Deceased
+245,37,Male,Respiratory,Emergency,2025-12-08 14:00:00,2025-12-17 15:00:00,9,66.8,Recovered
+246,18,Female,Respiratory,Emergency,2025-10-06 11:00:00,2025-10-12 19:00:00,6,86.3,Recovered
+247,12,Male,Respiratory,Emergency,2025-02-18 16:00:00,2025-02-21 20:00:00,3,24.5,Recovered
+248,44,Male,Hypertension,Orthopedics,2025-07-15 00:00:00,2025-07-17 01:00:00,2,65.7,Recovered
+249,25,Male,Diabetes,General Medicine,2025-11-02 05:00:00,2025-11-06 16:00:00,4,71.4,Recovered
+250,14,Male,Diabetes,Cardiology,2025-02-27 18:00:00,2025-03-01 23:00:00,2,15.6,Recovered
+251,55,Male,Diabetes,Cardiology,2025-09-25 22:00:00,2025-10-08 06:00:00,12,75.6,Recovered
+252,17,Male,Diabetes,Orthopedics,2025-06-04 05:00:00,2025-06-06 11:00:00,2,45.7,Recovered
+253,39,Male,Infection,Orthopedics,2025-01-03 13:00:00,2025-01-16 17:00:00,13,82.9,Transferred
+254,73,Female,Infection,Cardiology,2025-06-17 23:00:00,2025-06-23 07:00:00,5,49.3,Recovered
+255,48,Male,Respiratory,Cardiology,2025-06-05 05:00:00,2025-06-19 11:00:00,14,90.7,Recovered
+256,61,Female,Hypertension,Surgery,2025-12-22 12:00:00,2025-12-31 19:00:00,9,56.7,Recovered
+257,57,Male,Diabetes,Cardiology,2025-09-16 14:00:00,2025-09-27 21:00:00,11,78.9,Recovered
+258,75,Male,Cardiac,Cardiology,2025-10-08 01:00:00,2025-10-12 10:00:00,4,62.4,Recovered
+259,82,Female,Cardiac,Cardiology,2025-06-04 11:00:00,2025-06-12 13:00:00,8,60.5,Recovered
+260,33,Male,Diabetes,Orthopedics,2025-01-12 03:00:00,2025-01-24 09:00:00,12,75.0,Recovered
+261,3,Male,Cardiac,Cardiology,2025-02-26 08:00:00,2025-03-09 10:00:00,11,21.5,Recovered
+262,78,Male,Cardiac,Cardiology,2025-01-18 03:00:00,2025-01-29 04:00:00,11,96.8,Recovered
+263,20,Male,Respiratory,Surgery,2025-11-28 23:00:00,2025-12-06 10:00:00,7,52.6,Recovered
+264,70,Male,Respiratory,Emergency,2025-10-29 16:00:00,2025-11-03 21:00:00,5,71.1,Recovered
+265,49,Male,Fracture,Orthopedics,2025-01-14 03:00:00,2025-01-17 09:00:00,3,81.9,Transferred
+266,8,Male,Respiratory,Pediatrics,2025-03-05 19:00:00,2025-03-08 21:00:00,3,27.2,Recovered
+267,26,Female,Other,Orthopedics,2025-08-26 19:00:00,2025-08-29 06:00:00,2,57.9,Transferred
+268,41,Male,Hypertension,Emergency,2025-06-14 16:00:00,2025-06-25 21:00:00,11,88.3,Recovered
+269,14,Female,Hypertension,General Medicine,2025-01-11 19:00:00,2025-01-18 19:00:00,7,48.2,Recovered
+270,19,Male,Infection,Emergency,2025-08-30 05:00:00,2025-09-09 12:00:00,10,86.0,Recovered
+271,60,Male,Respiratory,Surgery,2025-02-01 23:00:00,2025-02-14 01:00:00,12,67.7,Transferred
+272,48,Male,Other,Surgery,2025-07-02 17:00:00,2025-07-16 04:00:00,13,73.0,Deceased
+273,55,Male,Fracture,Orthopedics,2025-04-26 19:00:00,2025-05-11 02:00:00,14,58.5,Transferred
+274,70,Male,Cardiac,Cardiology,2025-11-05 12:00:00,2025-11-15 20:00:00,10,51.5,Recovered
+275,39,Female,Respiratory,Emergency,2025-09-16 20:00:00,2025-09-19 23:00:00,3,81.8,Recovered
+276,72,Male,Cardiac,Cardiology,2025-09-10 01:00:00,2025-09-21 11:00:00,11,77.4,Recovered
+277,42,Male,Fracture,Orthopedics,2025-05-19 06:00:00,2025-05-21 13:00:00,2,63.6,Recovered
+278,51,Female,Respiratory,Pediatrics,2025-01-25 05:00:00,2025-02-01 10:00:00,7,57.3,Recovered
+279,40,Male,Infection,Orthopedics,2025-05-19 06:00:00,2025-05-25 12:00:00,6,62.7,Recovered
+280,29,Female,Other,Orthopedics,2025-02-03 21:00:00,2025-02-09 02:00:00,5,64.8,Recovered
+281,83,Female,Infection,Pediatrics,2025-06-30 17:00:00,2025-07-14 02:00:00,13,61.6,Recovered
+282,34,Male,Diabetes,Orthopedics,2025-07-02 08:00:00,2025-07-07 13:00:00,5,69.9,Recovered
+283,81,Female,Infection,Surgery,2025-12-02 12:00:00,2025-12-09 23:00:00,7,87.8,Recovered
+284,74,Male,Cardiac,Cardiology,2025-03-17 02:00:00,2025-03-30 05:00:00,13,85.0,Recovered
+285,5,Female,Diabetes,General Medicine,2025-05-13 07:00:00,2025-05-23 17:00:00,10,25.7,Recovered
+286,44,Female,Fracture,Orthopedics,2025-05-14 15:00:00,2025-05-22 00:00:00,7,78.6,Recovered
+287,45,Male,Hypertension,Orthopedics,2025-12-23 09:00:00,2025-12-26 14:00:00,3,68.1,Recovered
+288,12,Male,Infection,Emergency,2025-01-25 18:00:00,2025-02-02 03:00:00,7,32.6,Recovered
+289,46,Female,Hypertension,General Medicine,2025-03-17 02:00:00,2025-03-18 02:00:00,1,85.2,Recovered
+290,45,Female,Diabetes,Orthopedics,2025-06-16 15:00:00,2025-06-18 17:00:00,2,71.4,Recovered
+291,45,Male,Other,Pediatrics,2025-07-15 22:00:00,2025-07-18 23:00:00,3,51.8,Recovered
+292,39,Female,Respiratory,Cardiology,2025-08-15 12:00:00,2025-08-25 20:00:00,10,63.5,Recovered
+293,78,Male,Hypertension,General Medicine,2025-05-25 03:00:00,2025-06-04 04:00:00,10,65.2,Recovered
+294,27,Male,Other,Pediatrics,2025-08-07 15:00:00,2025-08-13 16:00:00,6,78.4,Recovered
+295,44,Male,Cardiac,Cardiology,2025-07-29 16:00:00,2025-08-13 02:00:00,14,76.7,Recovered
+296,2,Male,Infection,Pediatrics,2025-06-21 00:00:00,2025-07-01 04:00:00,10,23.0,Recovered
+297,65,Female,Diabetes,Surgery,2025-04-07 16:00:00,2025-04-24 00:00:00,16,50.5,Recovered
+298,41,Male,Diabetes,Cardiology,2025-02-28 17:00:00,2025-03-06 01:00:00,5,64.7,Recovered
+299,35,Female,Diabetes,Orthopedics,2025-09-26 14:00:00,2025-10-10 23:00:00,14,63.2,Recovered
+300,74,Female,Cardiac,Cardiology,2025-12-28 13:00:00,2025-12-30 23:00:00,2,75.7,Recovered
+301,68,Male,Infection,Surgery,2025-02-05 11:00:00,2025-02-22 20:00:00,17,48.8,Transferred
+302,63,Female,Infection,General Medicine,2025-06-17 00:00:00,2025-06-24 04:00:00,7,,Recovered
+303,23,Female,Fracture,Orthopedics,2025-02-28 02:00:00,2025-03-01 09:00:00,1,43.0,Recovered
+304,38,Male,Other,Pediatrics,2025-01-25 07:00:00,2025-01-29 13:00:00,4,68.4,Recovered
+305,17,Male,Other,General Medicine,2025-01-18 16:00:00,2025-01-28 02:00:00,9,40.0,Recovered
+306,49,Female,Infection,General Medicine,2025-03-16 03:00:00,2025-03-17 08:00:00,1,97.0,Recovered
+307,65,Male,Diabetes,Emergency,2025-12-20 05:00:00,2025-12-28 05:00:00,8,56.2,Recovered
+308,13,Female,Diabetes,General Medicine,2025-01-10 00:00:00,2025-01-18 02:00:00,8,30.1,Deceased
+309,8,Male,Hypertension,Cardiology,2025-07-02 10:00:00,2025-07-10 12:00:00,8,64.7,Recovered
+310,3,Female,Infection,General Medicine,2025-11-22 04:00:00,2025-11-26 05:00:00,4,39.5,Recovered
+311,79,Male,Hypertension,Orthopedics,2025-01-19 13:00:00,2025-01-23 00:00:00,3,97.0,Recovered
+312,24,Male,Hypertension,Orthopedics,2025-10-21 03:00:00,2025-10-23 07:00:00,2,48.4,Recovered
+313,50,Female,Diabetes,Emergency,2025-06-15 11:00:00,2025-06-20 12:00:00,5,53.6,Recovered
+314,11,Female,Cardiac,Cardiology,2025-09-09 18:00:00,2025-09-19 01:00:00,9,32.5,Recovered
+315,3,Female,Infection,General Medicine,2025-08-10 08:00:00,2025-08-17 10:00:00,7,47.6,Recovered
+316,54,Male,Other,Orthopedics,2025-05-09 19:00:00,2025-05-24 02:00:00,14,87.0,Recovered
+317,30,Male,Diabetes,Pediatrics,2025-01-02 00:00:00,2025-01-16 10:00:00,14,70.9,Recovered
+318,74,Female,Respiratory,Cardiology,2025-04-23 19:00:00,2025-05-11 04:00:00,17,85.4,Recovered
+319,30,Male,Respiratory,Emergency,2025-07-20 00:00:00,2025-08-01 01:00:00,12,72.8,Recovered
+320,71,Female,Hypertension,Pediatrics,2025-11-13 02:00:00,2025-11-19 03:00:00,6,70.3,Recovered
+321,36,Male,Cardiac,Cardiology,2025-03-02 02:00:00,2025-03-07 10:00:00,5,61.7,Recovered
+322,11,Female,Diabetes,General Medicine,2025-08-01 19:00:00,2025-08-06 22:00:00,5,34.7,Recovered
+323,53,Male,Other,Orthopedics,2025-08-23 12:00:00,2025-09-01 16:00:00,9,81.6,Recovered
+324,18,Female,Other,Emergency,2025-08-25 13:00:00,2025-08-29 22:00:00,4,70.0,Recovered
+325,79,Female,Fracture,Orthopedics,2025-01-20 09:00:00,2025-01-30 17:00:00,10,43.7,Recovered
+326,70,Female,Hypertension,Pediatrics,2025-01-06 01:00:00,2025-01-11 12:00:00,5,58.7,Recovered
+327,78,Female,Infection,Orthopedics,2025-07-03 12:00:00,2025-07-10 23:00:00,7,57.2,Transferred
+328,33,Female,Respiratory,Cardiology,2025-06-02 07:00:00,2025-06-13 17:00:00,11,69.7,Recovered
+329,80,Male,Infection,Cardiology,2025-10-22 22:00:00,2025-10-30 00:00:00,7,88.3,Recovered
+330,21,Male,Cardiac,Cardiology,2025-06-25 10:00:00,2025-07-06 10:00:00,11,58.9,Transferred
+331,12,Female,Respiratory,Emergency,2025-08-03 15:00:00,2025-08-06 01:00:00,2,15.0,Recovered
+332,47,Male,Respiratory,Emergency,2025-12-10 19:00:00,2025-12-23 23:00:00,13,78.5,Recovered
+333,48,Female,Other,Emergency,2025-11-19 19:00:00,2025-11-26 00:00:00,6,73.3,Recovered
+334,41,Male,Infection,Pediatrics,2025-07-23 21:00:00,2025-07-28 00:00:00,4,47.7,Recovered
+335,53,Male,Cardiac,Cardiology,2025-06-17 10:00:00,2025-06-21 16:00:00,4,46.2,Recovered
+336,13,Male,Fracture,Orthopedics,2025-11-19 07:00:00,2025-11-21 14:00:00,2,34.6,Recovered
+337,54,Female,Fracture,Orthopedics,2025-07-11 15:00:00,2025-07-17 20:00:00,6,64.4,Recovered
+338,34,Male,Hypertension,General Medicine,2025-06-04 00:00:00,2025-06-10 03:00:00,6,65.7,Recovered
+339,3,Male,Fracture,Orthopedics,2025-07-30 13:00:00,2025-08-07 22:00:00,8,43.3,Recovered
+340,73,Female,Hypertension,Orthopedics,2025-12-01 14:00:00,2025-12-08 18:00:00,7,88.8,Recovered
+341,29,Male,Hypertension,Emergency,2025-12-17 02:00:00,2025-12-23 03:00:00,6,45.6,Recovered
+342,66,Male,Infection,General Medicine,2025-01-07 10:00:00,2025-01-11 19:00:00,4,62.9,Recovered
+343,72,Male,Fracture,Orthopedics,2025-04-17 21:00:00,2025-04-23 07:00:00,5,79.0,Recovered
+344,21,Female,Infection,Orthopedics,2025-08-29 07:00:00,2025-09-10 14:00:00,12,53.9,Recovered
+345,42,Female,Respiratory,Emergency,2025-05-08 02:00:00,2025-05-17 12:00:00,9,49.2,Recovered
+346,40,Female,Respiratory,Surgery,2025-01-21 13:00:00,2025-01-24 17:00:00,3,52.9,Recovered
+347,6,Male,Infection,General Medicine,2025-01-23 13:00:00,2025-02-02 14:00:00,10,50.5,Recovered
+348,43,Female,Fracture,Orthopedics,2025-10-04 08:00:00,2025-10-10 17:00:00,6,73.5,Recovered
+349,28,Male,Cardiac,Cardiology,2025-08-19 12:00:00,2025-09-01 14:00:00,13,58.8,Recovered
+350,42,Male,Infection,General Medicine,2025-06-29 20:00:00,2025-07-05 20:00:00,6,63.5,Recovered
+351,76,Male,Respiratory,Orthopedics,2025-11-08 18:00:00,2025-11-20 01:00:00,11,53.4,Recovered
+352,25,Female,Diabetes,Pediatrics,2025-10-09 15:00:00,2025-10-18 17:00:00,9,44.7,Transferred
+353,32,Female,Other,General Medicine,2025-06-28 11:00:00,2025-06-29 20:00:00,1,62.4,Recovered
+354,49,Female,Infection,Orthopedics,2025-02-03 17:00:00,2025-02-14 22:00:00,11,30.1,Recovered
+355,68,Female,Respiratory,Orthopedics,2025-03-01 06:00:00,2025-03-02 13:00:00,1,55.2,Transferred
+356,62,Female,Other,Emergency,2025-09-21 03:00:00,2025-09-27 10:00:00,6,66.1,Recovered
+357,50,Male,Other,Surgery,2025-12-30 20:00:00,2026-01-06 02:00:00,6,62.4,Recovered
+358,61,Male,Diabetes,Surgery,2025-03-07 07:00:00,2025-03-16 09:00:00,9,64.5,Transferred
+359,10,Male,Diabetes,Emergency,2025-06-19 12:00:00,2025-06-24 16:00:00,5,30.9,Recovered
+360,41,Female,Cardiac,Cardiology,2025-07-11 16:00:00,2025-07-18 19:00:00,7,90.6,Recovered
+361,38,Male,Hypertension,Pediatrics,2025-11-24 07:00:00,2025-12-05 15:00:00,11,89.0,Recovered
+362,75,Female,Respiratory,Emergency,2025-10-20 17:00:00,2025-11-06 04:00:00,16,61.9,Recovered
+363,68,Female,Infection,General Medicine,2025-08-16 11:00:00,2025-08-24 11:00:00,8,48.4,Recovered
+364,9,Male,Other,Pediatrics,2025-01-06 20:00:00,2025-01-16 02:00:00,9,47.9,Recovered
+365,81,Female,Diabetes,Cardiology,2025-01-27 11:00:00,2025-02-09 14:00:00,13,82.1,Deceased
+366,64,Female,Infection,Surgery,2025-03-28 14:00:00,2025-04-08 19:00:00,11,75.4,Recovered
+367,63,Male,Cardiac,Cardiology,2025-04-13 14:00:00,2025-04-26 21:00:00,13,66.0,Recovered
+368,36,Male,Diabetes,General Medicine,2025-07-08 21:00:00,2025-07-11 00:00:00,2,51.1,Recovered
+369,36,Female,Cardiac,Cardiology,2025-04-09 16:00:00,2025-04-20 16:00:00,11,63.0,Recovered
+370,61,Female,Diabetes,Emergency,2025-04-06 16:00:00,2025-04-21 22:00:00,15,97.0,Recovered
+371,47,Female,Infection,Cardiology,2025-12-03 17:00:00,2025-12-18 01:00:00,14,66.7,Recovered
+372,61,Female,Hypertension,Orthopedics,2025-08-19 10:00:00,2025-08-30 15:00:00,11,62.9,Recovered
+373,12,Male,Other,General Medicine,2025-05-11 08:00:00,2025-05-14 17:00:00,3,29.7,Recovered
+374,49,Female,Cardiac,Cardiology,2025-07-26 20:00:00,2025-07-31 03:00:00,4,63.1,Recovered
+375,76,Male,Diabetes,Orthopedics,2025-12-14 07:00:00,2025-12-25 07:00:00,11,76.6,Recovered
+376,65,Female,Infection,Pediatrics,2025-12-20 01:00:00,2026-01-05 04:00:00,16,72.9,Recovered
+377,84,Female,Cardiac,Cardiology,2025-10-20 01:00:00,2025-10-23 01:00:00,3,67.2,Recovered
+378,65,Female,Cardiac,Cardiology,2025-10-10 19:00:00,2025-10-19 03:00:00,8,71.8,Recovered
+379,45,Female,Infection,Emergency,2025-11-26 12:00:00,2025-12-05 14:00:00,9,70.9,Recovered
+380,45,Female,Hypertension,Cardiology,2025-04-03 00:00:00,2025-04-12 06:00:00,9,60.7,Deceased
+381,51,Male,Infection,Cardiology,2025-03-30 19:00:00,2025-04-14 01:00:00,14,63.4,Recovered
+382,33,Male,Other,Pediatrics,2025-07-05 23:00:00,2025-07-18 03:00:00,12,85.2,Recovered
+383,19,Female,Cardiac,Cardiology,2025-01-30 06:00:00,2025-02-10 17:00:00,11,68.2,Recovered
+384,77,Male,Hypertension,General Medicine,2025-07-14 03:00:00,2025-07-24 05:00:00,10,89.7,Transferred
+385,9,Male,Infection,Orthopedics,2025-01-07 04:00:00,2025-01-13 05:00:00,6,44.1,Transferred
+386,84,Female,Respiratory,General Medicine,2025-04-29 09:00:00,2025-05-08 12:00:00,9,51.0,Recovered
+387,46,Male,Respiratory,Emergency,2025-02-15 01:00:00,2025-02-21 04:00:00,6,64.8,Recovered
+388,73,Male,Diabetes,Surgery,2025-11-13 00:00:00,2025-11-15 01:00:00,2,67.5,Recovered
+389,6,Female,Other,Cardiology,2025-05-08 10:00:00,2025-05-09 18:00:00,1,33.7,Recovered
+390,53,Male,Cardiac,Cardiology,2025-04-02 19:00:00,2025-04-10 04:00:00,7,53.1,Recovered
+391,20,Male,Fracture,Orthopedics,2025-12-15 06:00:00,2025-12-27 10:00:00,12,53.6,Recovered
+392,68,Female,Infection,Cardiology,2025-03-19 06:00:00,2025-03-21 17:00:00,2,97.9,Recovered
+393,28,Female,Infection,Orthopedics,2025-11-29 16:00:00,2025-11-30 19:00:00,1,49.7,Recovered
+394,7,Male,Hypertension,Orthopedics,2025-05-04 19:00:00,2025-05-09 04:00:00,4,16.1,Recovered
+395,49,Male,Infection,Emergency,2025-12-25 13:00:00,2025-12-28 17:00:00,3,69.6,Transferred
+396,48,Female,Infection,Emergency,2025-07-13 18:00:00,2025-07-26 01:00:00,12,66.7,Recovered
+397,77,Female,Infection,General Medicine,2025-10-06 09:00:00,2025-10-16 12:00:00,10,95.4,Recovered
+398,82,Female,Diabetes,Orthopedics,2025-10-20 11:00:00,2025-11-04 16:00:00,15,77.9,Recovered
+399,26,Female,Respiratory,Emergency,2025-01-10 07:00:00,2025-01-17 15:00:00,7,65.3,Recovered
+400,23,Female,Hypertension,Pediatrics,2025-06-04 08:00:00,2025-06-14 10:00:00,10,88.2,Recovered
+401,66,Female,Respiratory,Cardiology,2025-05-08 18:00:00,2025-05-15 21:00:00,7,64.0,Recovered
+402,52,Male,Cardiac,Cardiology,2025-12-31 21:00:00,2026-01-13 05:00:00,12,45.8,Transferred
+403,39,Male,Hypertension,Orthopedics,2025-08-03 08:00:00,2025-08-10 10:00:00,7,52.4,Transferred
+404,49,Male,Infection,Surgery,2025-08-29 04:00:00,2025-09-05 10:00:00,7,64.1,Recovered
+405,23,Female,Infection,General Medicine,2025-08-26 20:00:00,2025-09-01 21:00:00,6,74.6,Transferred
+406,1,Female,Diabetes,Orthopedics,2025-06-12 06:00:00,2025-06-24 11:00:00,12,44.9,Recovered
+407,20,Male,Respiratory,Orthopedics,2025-04-06 15:00:00,2025-04-11 18:00:00,5,62.4,Recovered
+408,14,Male,Cardiac,Cardiology,2025-04-09 01:00:00,2025-04-17 10:00:00,8,23.7,Recovered
+409,35,Female,Infection,Cardiology,2025-09-10 02:00:00,2025-09-16 06:00:00,6,68.6,Deceased
+410,30,Female,Respiratory,Pediatrics,2025-08-12 13:00:00,2025-08-13 13:00:00,1,65.5,Recovered
+411,49,Female,Fracture,Orthopedics,2025-12-10 15:00:00,2025-12-24 22:00:00,14,75.8,Recovered
+412,78,Female,Infection,Orthopedics,2025-04-11 04:00:00,2025-04-15 06:00:00,4,96.3,Recovered
+413,68,Male,Infection,Cardiology,2025-02-08 17:00:00,2025-02-09 20:00:00,1,75.3,Deceased
+414,82,Male,Diabetes,Cardiology,2025-03-13 15:00:00,2025-03-22 22:00:00,9,60.0,Recovered
+415,45,Female,Cardiac,Cardiology,2025-05-17 20:00:00,2025-06-01 21:00:00,15,90.1,Recovered
+416,25,Male,Other,Surgery,2025-02-21 21:00:00,2025-02-22 23:00:00,1,71.1,Recovered
+417,53,Female,Cardiac,Cardiology,2025-04-17 20:00:00,2025-04-24 04:00:00,6,63.3,Recovered
+418,46,Male,Infection,Orthopedics,2025-05-09 01:00:00,2025-05-20 11:00:00,11,80.3,Recovered
+419,18,Male,Cardiac,Cardiology,2025-02-26 01:00:00,2025-03-12 04:00:00,14,53.4,Recovered
+420,54,Male,Other,Orthopedics,2025-05-06 00:00:00,2025-05-19 02:00:00,13,49.7,Recovered
+421,7,Male,Infection,Pediatrics,2025-08-12 11:00:00,2025-08-23 12:00:00,11,49.4,Recovered
+422,62,Female,Other,Emergency,2025-03-06 21:00:00,2025-03-15 08:00:00,8,54.3,Recovered
+423,10,Male,Diabetes,Surgery,2025-02-17 19:00:00,2025-03-01 20:00:00,12,37.7,Deceased
+424,55,Female,Hypertension,Pediatrics,2025-11-28 09:00:00,2025-12-08 11:00:00,10,72.9,Recovered
+425,39,Female,Cardiac,Cardiology,2025-06-24 19:00:00,2025-07-01 19:00:00,7,60.5,Recovered
+426,15,Male,Respiratory,Pediatrics,2025-04-13 02:00:00,2025-04-19 10:00:00,6,24.2,Recovered
+427,53,Female,Other,Orthopedics,2025-01-09 11:00:00,2025-01-19 14:00:00,10,55.3,Recovered
+428,42,Male,Other,Cardiology,2025-09-24 13:00:00,2025-09-29 14:00:00,5,74.1,Recovered
+429,83,Female,Diabetes,Surgery,2025-01-30 21:00:00,2025-02-08 00:00:00,8,71.0,Transferred
+430,56,Male,Cardiac,Cardiology,2025-08-23 00:00:00,2025-08-27 10:00:00,4,62.2,Recovered
+431,54,Female,Hypertension,Surgery,2025-04-25 17:00:00,2025-05-03 17:00:00,8,93.1,Recovered
+432,29,Male,Hypertension,Emergency,2025-08-16 03:00:00,2025-08-25 14:00:00,9,87.4,Recovered
+433,76,Male,Infection,General Medicine,2025-02-21 00:00:00,2025-02-26 07:00:00,5,61.8,Recovered
+434,61,Female,Fracture,Orthopedics,2025-06-03 04:00:00,2025-06-06 15:00:00,3,60.0,Transferred
+435,15,Female,Diabetes,Orthopedics,2025-01-16 20:00:00,2025-01-30 02:00:00,13,52.6,Recovered
+436,57,Male,Hypertension,Orthopedics,2025-12-16 10:00:00,2025-12-22 14:00:00,6,75.5,Recovered
+437,30,Female,Hypertension,Orthopedics,2025-07-12 02:00:00,2025-07-16 11:00:00,4,58.3,Recovered
+438,41,Male,Diabetes,Orthopedics,2025-04-06 04:00:00,2025-04-07 05:00:00,1,47.3,Recovered
+439,19,Female,Respiratory,Orthopedics,2025-08-25 07:00:00,2025-09-03 18:00:00,9,69.7,Recovered
+440,31,Male,Diabetes,Cardiology,2025-07-08 05:00:00,2025-07-16 14:00:00,8,50.3,Recovered
+441,2,Female,Diabetes,Pediatrics,2025-10-23 18:00:00,2025-10-29 02:00:00,5,19.3,Recovered
+442,54,Female,Fracture,Orthopedics,2025-06-12 04:00:00,2025-06-14 14:00:00,2,93.7,Recovered
+443,13,Male,Diabetes,Emergency,2025-04-14 16:00:00,2025-04-21 17:00:00,7,41.5,Deceased
+444,64,Female,Cardiac,Cardiology,2025-02-28 23:00:00,2025-03-20 05:00:00,19,54.5,Recovered
+445,56,Female,Respiratory,Emergency,2025-12-30 02:00:00,2026-01-06 06:00:00,7,87.5,Transferred
+446,33,Female,Fracture,Orthopedics,2025-11-08 17:00:00,2025-11-19 18:00:00,11,75.8,Recovered
+447,65,Female,Respiratory,Pediatrics,2025-06-22 08:00:00,2025-07-01 10:00:00,9,74.6,Recovered
+448,9,Female,Other,General Medicine,2025-07-16 12:00:00,2025-07-27 19:00:00,11,65.3,Recovered
+449,69,Female,Cardiac,Cardiology,2025-06-25 17:00:00,2025-06-30 23:00:00,5,68.6,Recovered
+450,81,Male,Fracture,Orthopedics,2025-03-07 06:00:00,2025-03-17 08:00:00,10,82.7,Recovered
+451,70,Male,Respiratory,Surgery,2025-07-10 00:00:00,2025-07-18 03:00:00,8,64.9,Transferred
+452,45,Female,Other,Emergency,2025-07-20 04:00:00,2025-07-31 08:00:00,11,60.2,Recovered
+453,25,Female,Hypertension,Emergency,2025-02-16 00:00:00,2025-02-19 11:00:00,3,57.8,Transferred
+454,58,Female,Respiratory,Cardiology,2025-07-03 13:00:00,2025-07-13 18:00:00,10,67.8,Recovered
+455,3,Female,Respiratory,General Medicine,2025-12-26 12:00:00,2026-01-04 20:00:00,9,19.2,Recovered
+456,64,Female,Cardiac,Cardiology,2025-02-17 14:00:00,2025-03-01 14:00:00,12,53.5,Recovered
+457,67,Female,Fracture,Orthopedics,2025-06-20 16:00:00,2025-07-04 23:00:00,14,86.7,Recovered
+458,2,Male,Hypertension,Surgery,2025-04-17 04:00:00,2025-04-19 06:00:00,2,44.3,Recovered
+459,61,Male,Diabetes,Cardiology,2025-02-10 18:00:00,2025-02-12 22:00:00,2,75.5,Recovered
+460,63,Female,Cardiac,Cardiology,2025-05-03 19:00:00,2025-05-05 22:00:00,2,53.5,Recovered
+461,18,Female,Other,Surgery,2025-07-21 21:00:00,2025-07-27 02:00:00,5,61.5,Recovered
+462,46,Female,Other,Emergency,2025-07-27 16:00:00,2025-08-06 19:00:00,10,86.9,Recovered
+463,75,Female,Diabetes,Pediatrics,2025-04-28 14:00:00,2025-05-12 00:00:00,13,57.8,Recovered
+464,11,Male,Respiratory,Emergency,2025-04-18 23:00:00,2025-05-02 10:00:00,13,36.1,Transferred
+465,4,Male,Infection,Orthopedics,2025-02-17 22:00:00,2025-02-26 22:00:00,9,15.4,Recovered
+466,79,Female,Other,Pediatrics,2025-01-11 17:00:00,2025-01-15 21:00:00,4,68.2,Recovered
+467,77,Female,Cardiac,Cardiology,2025-12-18 09:00:00,2025-12-20 20:00:00,2,47.3,Recovered
+468,4,Male,Other,Orthopedics,2025-10-27 00:00:00,2025-11-08 02:00:00,12,38.4,Recovered
+469,53,Female,Respiratory,Cardiology,2025-05-28 14:00:00,2025-05-30 01:00:00,1,49.5,Recovered
+470,36,Female,Other,Emergency,2025-12-26 16:00:00,2026-01-06 17:00:00,11,75.7,Transferred
+471,6,Male,Infection,Cardiology,2025-02-06 16:00:00,2025-02-12 20:00:00,6,32.7,Recovered
+472,29,Male,Infection,General Medicine,2025-09-23 22:00:00,2025-10-06 04:00:00,12,37.4,Recovered
+473,28,Female,Respiratory,Emergency,2025-05-05 01:00:00,2025-05-08 12:00:00,3,62.1,Recovered
+474,33,Female,Cardiac,Cardiology,2025-07-28 16:00:00,2025-08-13 23:00:00,16,83.9,Recovered
+475,50,Female,Other,Surgery,2025-07-21 13:00:00,2025-07-28 17:00:00,7,63.4,Transferred
+476,5,Male,Infection,Cardiology,2025-09-11 02:00:00,2025-09-15 07:00:00,4,32.8,Recovered
+477,6,Female,Fracture,Orthopedics,2025-09-13 20:00:00,2025-09-18 01:00:00,4,29.4,Recovered
+478,45,Male,Fracture,Orthopedics,2025-10-06 23:00:00,2025-10-18 01:00:00,11,,Recovered
+479,13,Male,Infection,Orthopedics,2025-09-11 22:00:00,2025-09-18 23:00:00,7,15.0,Recovered
+480,41,Male,Infection,Pediatrics,2025-07-06 12:00:00,2025-07-20 15:00:00,14,72.7,Recovered
+481,15,Male,Cardiac,Cardiology,2025-06-20 06:00:00,2025-06-25 17:00:00,5,32.1,Transferred
+482,33,Female,Infection,Pediatrics,2025-06-14 12:00:00,2025-06-26 21:00:00,12,60.8,Recovered
+483,3,Male,Respiratory,Cardiology,2025-05-29 08:00:00,2025-05-30 08:00:00,1,26.5,Recovered
+484,82,Male,Diabetes,General Medicine,2025-08-02 07:00:00,2025-08-09 16:00:00,7,81.6,Recovered
+485,82,Male,Cardiac,Cardiology,2025-12-28 13:00:00,2026-01-12 18:00:00,15,65.6,Recovered
+486,57,Male,Respiratory,Surgery,2025-09-01 00:00:00,2025-09-08 04:00:00,7,60.7,Recovered
+487,67,Male,Hypertension,General Medicine,2025-01-10 12:00:00,2025-01-17 21:00:00,7,58.9,Recovered
+488,66,Female,Hypertension,Orthopedics,2025-07-26 09:00:00,2025-08-10 20:00:00,15,49.8,Recovered
+489,34,Female,Hypertension,Pediatrics,2025-10-13 15:00:00,2025-10-25 20:00:00,12,48.5,Recovered
+490,7,Female,Respiratory,Pediatrics,2025-09-27 00:00:00,2025-10-04 03:00:00,7,44.6,Recovered
+491,8,Female,Fracture,Orthopedics,2025-06-17 15:00:00,2025-06-30 17:00:00,13,56.4,Recovered
+492,67,Female,Diabetes,Pediatrics,2025-07-27 19:00:00,2025-08-07 04:00:00,10,61.1,Recovered
+493,23,Female,Other,Surgery,2025-08-02 02:00:00,2025-08-10 02:00:00,8,31.6,Recovered
+494,72,Male,Other,Cardiology,2025-04-03 16:00:00,2025-04-08 23:00:00,5,67.7,Recovered
+495,11,Male,Other,Orthopedics,2025-09-10 10:00:00,2025-09-11 12:00:00,1,50.6,Transferred
+496,8,Male,Respiratory,Cardiology,2025-06-13 04:00:00,2025-06-19 14:00:00,6,21.6,Recovered
+497,7,Female,Diabetes,Surgery,2025-07-04 21:00:00,2025-07-09 00:00:00,4,19.8,Recovered
+498,33,Female,Cardiac,Cardiology,2025-11-06 23:00:00,2025-11-12 07:00:00,5,67.9,Recovered
+499,69,Male,Infection,Emergency,2025-09-26 01:00:00,2025-10-03 11:00:00,7,66.9,Recovered
+500,83,Male,Fracture,Orthopedics,2025-11-18 08:00:00,2025-11-29 09:00:00,11,79.6,Recovered
+501,19,Female,Other,Surgery,2025-12-21 00:00:00,2026-01-02 01:00:00,12,72.6,Recovered
+502,52,Male,Cardiac,Cardiology,2025-07-18 07:00:00,2025-07-20 11:00:00,2,82.4,Recovered
+503,57,Female,Cardiac,Cardiology,2025-08-25 22:00:00,2025-09-01 01:00:00,6,93.1,Recovered
+504,79,Female,Hypertension,Surgery,2025-10-21 13:00:00,2025-10-25 00:00:00,3,56.5,Recovered
+505,36,Female,Infection,Surgery,2025-05-04 06:00:00,2025-05-08 09:00:00,4,26.0,Recovered
+506,62,Female,Diabetes,Orthopedics,2025-09-19 01:00:00,2025-09-28 09:00:00,9,62.2,Recovered
+507,10,Female,Diabetes,General Medicine,2025-01-17 16:00:00,2025-01-21 22:00:00,4,22.8,Recovered
+508,78,Male,Diabetes,Cardiology,2025-10-17 07:00:00,2025-10-21 09:00:00,4,70.9,Recovered
+509,64,Female,Hypertension,Cardiology,2025-02-16 21:00:00,2025-02-24 05:00:00,7,50.0,Recovered
+510,78,Male,Cardiac,Cardiology,2025-09-08 16:00:00,2025-09-23 16:00:00,15,66.3,Recovered
+511,40,Female,Hypertension,Emergency,2025-08-25 01:00:00,2025-09-05 01:00:00,11,57.0,Recovered
+512,83,Male,Diabetes,Emergency,2025-09-27 17:00:00,2025-09-30 00:00:00,2,59.5,Recovered
+513,31,Male,Infection,Cardiology,2025-01-29 12:00:00,2025-02-05 22:00:00,7,34.1,Recovered
+514,78,Male,Infection,Surgery,2025-08-02 04:00:00,2025-08-07 15:00:00,5,55.3,Recovered
+515,60,Female,Other,Surgery,2025-08-30 12:00:00,2025-09-13 16:00:00,14,86.3,Recovered
+516,16,Male,Respiratory,Pediatrics,2025-12-11 23:00:00,2025-12-15 00:00:00,3,42.7,Recovered
+517,79,Female,Other,Cardiology,2025-11-19 12:00:00,2025-11-23 23:00:00,4,52.8,Recovered
+518,58,Male,Fracture,Orthopedics,2025-12-10 13:00:00,2025-12-12 23:00:00,2,54.3,Recovered
+519,62,Male,Hypertension,General Medicine,2025-09-10 19:00:00,2025-09-16 01:00:00,5,39.3,Recovered
+520,22,Female,Diabetes,Emergency,2025-03-20 18:00:00,2025-03-24 18:00:00,4,51.6,Recovered
+521,19,Female,Infection,Surgery,2025-03-18 12:00:00,2025-03-26 19:00:00,8,67.8,Transferred
+522,1,Male,Diabetes,Surgery,2025-11-27 23:00:00,2025-12-08 07:00:00,10,36.9,Recovered
+523,53,Female,Infection,Orthopedics,2025-05-18 08:00:00,2025-05-24 11:00:00,6,75.8,Transferred
+524,61,Male,Diabetes,General Medicine,2025-09-10 21:00:00,2025-09-21 22:00:00,11,82.8,Recovered
+525,50,Female,Hypertension,Surgery,2025-01-16 09:00:00,2025-01-25 11:00:00,9,71.7,Recovered
+526,13,Male,Other,Cardiology,2025-10-25 20:00:00,2025-11-03 07:00:00,8,31.9,Recovered
+527,59,Male,Other,Surgery,2025-12-05 09:00:00,2025-12-19 16:00:00,14,62.3,Transferred
+528,66,Female,Infection,Orthopedics,2025-06-24 20:00:00,2025-06-30 05:00:00,5,88.2,Recovered
+529,81,Female,Respiratory,Emergency,2025-05-06 03:00:00,2025-05-14 05:00:00,8,80.0,Recovered
+530,20,Male,Diabetes,Orthopedics,2025-05-27 00:00:00,2025-06-08 09:00:00,12,54.9,Recovered
+531,19,Female,Fracture,Orthopedics,2025-02-24 14:00:00,2025-03-02 01:00:00,5,53.5,Recovered
+532,9,Male,Hypertension,Pediatrics,2025-03-29 12:00:00,2025-04-09 14:00:00,11,20.1,Recovered
+533,61,Female,Diabetes,General Medicine,2025-04-12 22:00:00,2025-04-16 03:00:00,3,97.7,Recovered
+534,21,Female,Other,Cardiology,2025-11-12 14:00:00,2025-11-13 21:00:00,1,85.6,Recovered
+535,69,Male,Hypertension,Cardiology,2025-11-13 18:00:00,2025-11-20 23:00:00,7,80.9,Recovered
+536,49,Male,Respiratory,Pediatrics,2025-11-03 21:00:00,2025-11-11 02:00:00,7,85.4,Recovered
+537,80,Male,Cardiac,Cardiology,2025-12-23 11:00:00,2026-01-06 15:00:00,14,64.7,Recovered
+538,64,Female,Cardiac,Cardiology,2025-12-08 00:00:00,2025-12-18 10:00:00,10,67.3,Recovered
+539,61,Male,Cardiac,Cardiology,2025-03-27 15:00:00,2025-04-10 19:00:00,14,67.7,Recovered
+540,14,Female,Other,Emergency,2025-01-11 10:00:00,2025-01-14 16:00:00,3,23.6,Recovered
+541,68,Female,Cardiac,Cardiology,2025-10-02 00:00:00,2025-10-15 11:00:00,13,47.3,Recovered
+542,59,Female,Hypertension,Pediatrics,2025-07-30 18:00:00,2025-08-02 00:00:00,2,62.6,Recovered
+543,70,Female,Hypertension,Surgery,2025-02-22 08:00:00,2025-03-05 09:00:00,11,96.5,Recovered
+544,23,Male,Hypertension,Orthopedics,2025-11-01 12:00:00,2025-11-06 17:00:00,5,78.4,Recovered
+545,63,Male,Infection,Emergency,2025-09-22 05:00:00,2025-10-03 05:00:00,11,65.7,Recovered
+546,17,Female,Infection,Pediatrics,2025-04-19 15:00:00,2025-04-24 01:00:00,4,66.8,Recovered
+547,81,Female,Cardiac,Cardiology,2025-12-09 19:00:00,2025-12-15 23:00:00,6,68.2,Recovered
+548,62,Female,Diabetes,Cardiology,2025-12-09 22:00:00,2025-12-12 02:00:00,2,57.8,Recovered
+549,36,Female,Infection,Surgery,2025-12-04 21:00:00,2025-12-06 06:00:00,1,78.8,Recovered
+550,6,Male,Cardiac,Cardiology,2025-01-30 01:00:00,2025-02-08 04:00:00,9,43.4,Recovered
+551,28,Male,Respiratory,General Medicine,2025-10-03 14:00:00,2025-10-12 21:00:00,9,67.7,Recovered
+552,12,Female,Hypertension,Pediatrics,2025-07-07 05:00:00,2025-07-15 13:00:00,8,32.2,Recovered
+553,49,Male,Fracture,Orthopedics,2025-12-22 15:00:00,2025-12-27 00:00:00,4,54.9,Recovered
+554,21,Female,Diabetes,Pediatrics,2025-04-22 05:00:00,2025-05-05 09:00:00,13,74.5,Recovered
+555,47,Female,Diabetes,Emergency,2025-05-24 20:00:00,2025-06-08 04:00:00,14,78.7,Recovered
+556,59,Male,Other,Emergency,2025-09-08 15:00:00,2025-09-12 21:00:00,4,73.0,Recovered
+557,72,Male,Infection,Orthopedics,2025-07-05 05:00:00,2025-07-08 09:00:00,3,59.0,Recovered
+558,57,Male,Infection,Surgery,2025-10-20 04:00:00,2025-10-30 15:00:00,10,49.5,Transferred
+559,73,Female,Cardiac,Cardiology,2025-11-26 17:00:00,2025-12-08 22:00:00,12,61.7,Recovered
+560,39,Male,Diabetes,Orthopedics,2025-09-14 14:00:00,2025-09-27 17:00:00,13,44.4,Recovered
+561,58,Male,Infection,General Medicine,2025-12-17 17:00:00,2025-12-24 18:00:00,7,76.2,Recovered
+562,83,Male,Hypertension,General Medicine,2025-09-23 20:00:00,2025-09-28 21:00:00,5,61.1,Recovered
+563,36,Female,Diabetes,Cardiology,2025-02-09 22:00:00,2025-02-13 01:00:00,3,69.8,Recovered
+564,14,Male,Other,Surgery,2025-08-28 03:00:00,2025-09-01 09:00:00,4,33.2,Recovered
+565,18,Female,Hypertension,Orthopedics,2025-12-26 22:00:00,2026-01-01 04:00:00,5,78.6,Recovered
+566,76,Male,Other,General Medicine,2025-12-30 06:00:00,2026-01-05 17:00:00,6,82.0,Recovered
+567,68,Male,Respiratory,Emergency,2025-01-20 12:00:00,2025-01-26 13:00:00,6,59.1,Recovered
+568,6,Female,Diabetes,Pediatrics,2025-10-07 14:00:00,2025-10-11 21:00:00,4,21.6,Recovered
+569,65,Male,Fracture,Orthopedics,2025-01-31 10:00:00,2025-02-17 17:00:00,17,52.8,Transferred
+570,84,Male,Infection,Cardiology,2025-05-08 20:00:00,2025-05-16 21:00:00,8,98.0,Recovered
+571,77,Male,Respiratory,Orthopedics,2025-06-04 20:00:00,2025-06-19 07:00:00,14,54.1,Recovered
+572,6,Female,Respiratory,Emergency,2025-07-04 13:00:00,2025-07-06 20:00:00,2,41.4,Transferred
+573,15,Male,Diabetes,Surgery,2025-12-25 17:00:00,2026-01-09 04:00:00,14,44.7,Recovered
+574,39,Female,Respiratory,Orthopedics,2025-09-03 01:00:00,2025-09-07 12:00:00,4,92.9,Recovered
+575,1,Male,Diabetes,Surgery,2025-07-30 11:00:00,2025-08-10 20:00:00,11,15.0,Recovered
+576,36,Female,Respiratory,Emergency,2025-12-21 19:00:00,2026-01-03 22:00:00,13,60.8,Recovered
+577,27,Female,Cardiac,Cardiology,2025-03-16 08:00:00,2025-03-29 18:00:00,13,49.1,Recovered
+578,83,Male,Cardiac,Cardiology,2025-12-06 01:00:00,2025-12-21 11:00:00,15,46.7,Recovered
+579,2,Female,Fracture,Orthopedics,2025-10-09 11:00:00,2025-10-14 13:00:00,5,32.1,Recovered
+580,60,Female,Diabetes,General Medicine,2025-09-08 07:00:00,2025-09-20 11:00:00,12,74.4,Recovered
+581,10,Male,Cardiac,Cardiology,2025-03-01 08:00:00,2025-03-13 12:00:00,12,17.0,Recovered
+582,26,Female,Hypertension,General Medicine,2025-01-09 00:00:00,2025-01-10 08:00:00,1,65.5,Recovered
+583,77,Female,Cardiac,Cardiology,2025-03-14 15:00:00,2025-03-29 00:00:00,14,68.5,Recovered
+584,10,Female,Cardiac,Cardiology,2025-11-25 10:00:00,2025-12-02 16:00:00,7,65.6,Recovered
+585,27,Female,Respiratory,General Medicine,2025-02-12 07:00:00,2025-02-18 11:00:00,6,57.9,Recovered
+586,47,Male,Cardiac,Cardiology,2025-08-21 05:00:00,2025-09-01 15:00:00,11,65.8,Recovered
+587,57,Male,Cardiac,Cardiology,2025-04-08 02:00:00,2025-04-20 09:00:00,12,66.2,Transferred
+588,15,Male,Respiratory,Pediatrics,2025-08-02 13:00:00,2025-08-04 21:00:00,2,43.4,Recovered
+589,7,Female,Hypertension,Emergency,2025-07-17 15:00:00,2025-07-25 23:00:00,8,16.9,Recovered
+590,65,Male,Hypertension,Pediatrics,2025-09-05 14:00:00,2025-09-16 22:00:00,11,85.9,Recovered
+591,80,Male,Other,Cardiology,2025-09-07 16:00:00,2025-09-23 17:00:00,16,65.9,Recovered
+592,43,Male,Fracture,Orthopedics,2025-02-02 15:00:00,2025-02-17 02:00:00,14,52.6,Recovered
+593,73,Male,Fracture,Orthopedics,2025-04-13 12:00:00,2025-04-25 23:00:00,12,92.9,Recovered
+594,45,Female,Diabetes,Pediatrics,2025-12-18 13:00:00,2025-12-27 15:00:00,9,74.3,Transferred
+595,1,Male,Infection,Pediatrics,2025-08-26 18:00:00,2025-08-30 23:00:00,4,29.0,Transferred
+596,16,Male,Infection,Cardiology,2025-04-23 00:00:00,2025-04-28 05:00:00,5,55.6,Recovered
+597,36,Male,Infection,Surgery,2025-04-19 02:00:00,2025-04-24 11:00:00,5,52.1,Recovered
+598,83,Male,Other,Pediatrics,2025-03-14 12:00:00,2025-03-17 23:00:00,3,65.2,Recovered
+599,60,Female,Other,Surgery,2025-08-28 13:00:00,2025-09-07 17:00:00,10,71.5,Recovered
+600,72,Male,Cardiac,Cardiology,2025-05-23 16:00:00,2025-06-04 19:00:00,12,63.2,Recovered
